@@ -1,5 +1,5 @@
 # logic_gates
-
+```
 EXP1: Study of basic digital IC’s and verification of truth tables for different logic gates
 AIM:
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
@@ -28,10 +28,34 @@ Procedure
 3.Generate the RTL schematic and save the logic diagram.
 4.Create nodes for inputs and outputs to generate the timing diagram.
 5.For different input combinations generate the timing diagram.
+```
 PROGRAM
 Program for logic gates and verify its truth table in quartus using Verilog programming
-Developed by:
-RegisterNumber:
+```
+Developed by:Monika V
+RegisterNumber:25017555
+module logic(
+    input  wire a,     // Input A
+    input  wire b,     // Input B
+    output wire and_out,
+    output wire or_out,
+    output wire not_out,   // only on A
+    output wire nand_out,
+    output wire nor_out,
+    output wire xor_out,
+    output wire xnor_out
+);
+
+    assign and_out  = a & b;      // AND gate
+    assign or_out   = a | b;      // OR gate
+    assign not_out  = ~a;         // NOT gate (on input A)
+    assign nand_out = ~(a & b);   // NAND gate
+    assign nor_out  = ~(a | b);   // NOR gate
+    assign xor_out  = a ^ b;      // XOR gate
+    assign xnor_out = ~(a ^ b);   // XNOR gate
+
+endmodule
+```
 
 Logic symbol & Truthtable
 RTL realization Output:
