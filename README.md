@@ -1,4 +1,5 @@
 # logic_gates
+
 EXP1: Study of basic digital IC’s and verification of truth tables for different logic gates
 AIM:
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
@@ -29,7 +30,9 @@ Procedure
 5.For different input combinations generate the timing diagram.
 PROGRAM
 Program for logic gates and verify its truth table in quartus using Verilog programming
-Developed by: RegisterNumber:
+Developed by:
+RegisterNumber:
+
 Logic symbol & Truthtable
 RTL realization Output:
 RTL
