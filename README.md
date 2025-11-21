@@ -30,8 +30,8 @@ Procedure
 5.For different input combinations generate the timing diagram.
 ```
 PROGRAM
-Program for logic gates and verify its truth table in quartus using Verilog programming
 ```
+Program for logic gates and verify its truth table in quartus using Verilog programming
 Developed by:Monika V
 RegisterNumber:25017555
 module logic(
@@ -58,6 +58,15 @@ endmodule
 ```
 
 Logic symbol & Truthtable
+```
+```
 RTL realization Output:
+```
+```
 RTL
-Result: Thus, the truth table of logic gates in Quartus II using Verilog programming is studied and verified.
+```
+```
+Result:
+```
+Thus, the truth table of logic gates in Quartus II using Verilog programming is studied and verified.
+```
